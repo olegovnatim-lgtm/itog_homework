@@ -56,3 +56,5 @@ def test_favorites(set_up):
     """Сравнение наименования товара из карточки товара с наименованием товара в избранном"""
     assert item_title_value_in_catalog == fp.get_item_title_value()
     print('ASSERT IS TRUE Товар успешно добавлен в избранное')
+
+    driver.quit()

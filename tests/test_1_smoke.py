@@ -75,3 +75,5 @@ def test_smoke(set_up):
 
 
     print('Дымовое тестирование проведено успешно')
+
+    driver.quit()
